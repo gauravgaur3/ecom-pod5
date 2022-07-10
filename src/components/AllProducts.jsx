@@ -99,7 +99,7 @@ function AllProduct(){
         <h1 class="display-4 fw-normal">Our Products</h1>
         </div>
             <div className="card shadow bg-transparent">
-                <div className="card-body d-flex">
+                <div className="card-body d-flex flex-wrap">
                     {products.map(x=>(
                         <Product key={x.prodid} x={x} showModal={showModal} />
                     ))}

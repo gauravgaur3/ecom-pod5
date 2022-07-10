@@ -118,7 +118,7 @@ function AddProduct(){
                             <div className="form-group form-row">
                                 <label className="col-sm-4 form-control-label">Photo</label>
                                 <div className="col-sm-8">
-                                    <input type="file" required name="photo" value={product.photo} onChange={handleFileInput} className="form-control-file" />
+                                    <input type="file" required name="pic" value={product.pic} onChange={handleFileInput} className="form-control-file" />
                                 </div>
                             </div>
 
