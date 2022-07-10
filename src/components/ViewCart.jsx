@@ -10,14 +10,14 @@ function ViewCart(){
     const history=useHistory()
     const [address,setAddress]=useState({
         "city":"",
-        "state":"Delhi",
-        "zip":"12324",
+        "state":"",
+        "zip":"",
         "country":"India"
     })
     const [payment,setPayment]=useState({
-        "cardno":"1212444433336666",
-        "nameoncard":"Test Name",
-        "cvv":"123",
+        "cardno":"",
+        "nameoncard":"",
+        "cvv":"",
         "amount":state.cart.reduce((a,b)=> (a+b.price),0)
     })
     const deleteItem=(item)=>{
