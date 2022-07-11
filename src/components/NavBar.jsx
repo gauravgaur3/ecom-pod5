@@ -22,7 +22,7 @@ function NavBar(){
                     <li className="nav-item active">
                         <Link className="nav-link" to="/">Home</Link>
                     </li>
-                    <li className="nav-item dropdown">
+                    {/* <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Cateories
                         </Link>
@@ -34,7 +34,7 @@ function NavBar(){
                         <Link className="dropdown-item" to="/cats?cat=Refrigrators">Refrigrators</Link>
                         <Link className="dropdown-item" to="/cats?cat=Washing Machines">Washing Machines</Link>
                         </div>
-                    </li>
+                    </li> */}
                     </ul>
                     <RoleNavbar isLoggedIn={state.loggedin.IsLoggedIn} />
                 </div>
